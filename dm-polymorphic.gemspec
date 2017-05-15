@@ -16,8 +16,7 @@ Gem::Specification.new do |s|
   s.homepage         = "http://github.com/hassox/dm-polymorphic"
   s.require_path     = "lib"
   s.add_dependency("dm-core", ">=1.2.1")
-  s.add_dependency("extlib", ">=0.9.16")
-
+  s.add_dependency("activesupport", "~> 5.1")
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
   # to allow pushing to a single host or delete this section to allow pushing to any host.
   if s.respond_to?(:metadata)
