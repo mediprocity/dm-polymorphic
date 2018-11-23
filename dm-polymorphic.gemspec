@@ -7,7 +7,6 @@ Gem::Specification.new do |s|
   s.name             = "dm-polymorphic"
   s.version          = "1.2.3"
   s.platform         = Gem::Platform::RUBY
-  s.has_rdoc         = true
   s.extra_rdoc_files = %w[ README.textile LICENSE TODO ]
   s.summary          = "DataMapper plugin enabling simple ActiveRecord style polymorphism"
   s.description      = s.summary
