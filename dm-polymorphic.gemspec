@@ -5,7 +5,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 Gem::Specification.new do |s|
   s.name             = "dm-polymorphic"
-  s.version          = "1.2.3"
+  s.version          = "1.2.4"
   s.platform         = Gem::Platform::RUBY
   s.extra_rdoc_files = %w[ README.textile LICENSE TODO ]
   s.summary          = "DataMapper plugin enabling simple ActiveRecord style polymorphism"
