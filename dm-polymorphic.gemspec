@@ -5,7 +5,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 Gem::Specification.new do |s|
   s.name             = "dm-polymorphic"
-  s.version          = "1.2.5"
+  s.version          = "1.2.6"
   s.platform         = Gem::Platform::RUBY
   s.extra_rdoc_files = %w[ README.textile LICENSE TODO ]
   s.summary          = "DataMapper plugin enabling simple ActiveRecord style polymorphism"
@@ -15,7 +15,7 @@ Gem::Specification.new do |s|
   s.homepage         = "http://github.com/hassox/dm-polymorphic"
   s.require_path     = "lib"
   s.add_dependency("dm-core", ">=1.2.1")
-  s.add_dependency("activesupport", ">= 5.1, ~> 6.0")
+  s.add_dependency("activesupport", ">= 5.1")
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
   # to allow pushing to a single host or delete this section to allow pushing to any host.
   if s.respond_to?(:metadata)
@@ -29,5 +29,5 @@ Gem::Specification.new do |s|
   s.executables   = s.files.grep(%r{^exe/}) { |f| File.basename(f) }
   s.require_paths = ['lib']
 
-  s.required_ruby_version = '~> 2.3'
+  s.required_ruby_version = '~> 2.6'
 end
